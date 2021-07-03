@@ -39,7 +39,7 @@ const addPrice = async () => {
 db.once('open', () => {
 	console.log("connected to mongodb...")
 	addPrice();
-	setInterval(addPrice, 300000/10);
+	setInterval(addPrice, 300000);
 })
 
 let Bitcoin = require('./Bitcoin');
