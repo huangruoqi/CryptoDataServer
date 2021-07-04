@@ -13,6 +13,10 @@ const ETCSchema = mongoose.Schema({
 		time_id: {
 			type: Number,
 			required: true
+		},
+		part_id: {
+			type: Number,
+			required: true
 		}
 });
 
